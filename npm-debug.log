@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\node\\nodejs\\node.exe',
+1 verbose cli   'C:\\node\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle sell@1.0.0~predev: sell@1.0.0
+6 silly lifecycle sell@1.0.0~predev: no script for predev, continuing
+7 info lifecycle sell@1.0.0~dev: sell@1.0.0
+8 verbose lifecycle sell@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle sell@1.0.0~dev: PATH: C:\node\nvm\v6.9.5\node_modules\npm\bin\node-gyp-bin;C:\Users\j\Desktop\vue04\sell\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\node\nvm;C:\node\nodejs;C:\Program Files\Git\cmd;C:\Users\j\AppData\Local\Microsoft\WindowsApps;C:\node\nvm;C:\node\nodejs;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Android\sdk\platform-tools;C:\Android\sdk\tools;C:\curl;C:\Users\j\.gradle\wrapper\dists\gradle-2.14.1-all\8bnwg5hd3w55iofp58khbp6yv1\gradle-2.14.1/bin;C:\Program Files\MongoDB\Server\3.4\bin;
+10 verbose lifecycle sell@1.0.0~dev: CWD: C:\Users\j\Desktop\vue04\sell
+11 silly lifecycle sell@1.0.0~dev: Args: [ '/d /s /c',
+11 silly lifecycle   'webpack-dev-server --open --progress --port 9002' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1022:11)
+12 verbose stack     at process.kill (internal/process.js:172:13)
+12 verbose stack     at process.listener (C:\node\nvm\v6.9.5\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (C:\node\nvm\v6.9.5\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\node\nvm\v6.9.5\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:199:44)
+13 verbose cwd C:\Users\j\Desktop\vue04\sell
+14 error Windows_NT 10.0.15063
+15 error argv "C:\\node\\nodejs\\node.exe" "C:\\node\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+16 error node v6.9.5
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
